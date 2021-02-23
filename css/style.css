@@ -8,7 +8,7 @@
 
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: Divers�o em Livros 
+@Template Name: Diversão em Livros 
 @Author: 
 @Developed By: Caio
 @Developer URL: 
@@ -586,16 +586,16 @@ button:focus,
 }
 @keyframes loading-text {
   0% {
-    content: "Loading";
+    content: "Carregando";
   }
   25% {
-    content: "Loading.";
+    content: "Carregando.";
   }
   50% {
-    content: "Loading..";
+    content: "Carregando..";
   }
   75% {
-    content: "Loading...";
+    content: "Carregando...";
   }
 }
 .header_shadow {
@@ -1154,7 +1154,7 @@ a.elementor-button, .elementor-button:hover {
   }
   .header_part .dropdown-toggle::after {
     border: 0px solid transparent;
-    content: "";
+    content: "ï„‡";
     font-family: "Font Awesome 5 Free";
     vertical-align: 0px;
     float: right;
@@ -5742,7 +5742,7 @@ a.elementor-button, .elementor-button:hover {
 }
 @media (max-width: 767.98px) {
   .single_event_section_part {
-    margin-top: 20px;
+    margin-top: 70px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -6525,7 +6525,7 @@ a.elementor-button, .elementor-button:hover {
 }
 
 .footer_section {
-  padding: 120px 0 30px;
+  padding: 50px 0 30px;
   position: relative;
   background-color: #32355d;
   z-index: 1;
@@ -6578,6 +6578,7 @@ a.elementor-button, .elementor-button:hover {
 }
 .footer_section .single_footer_widget p {
   color: #fff;
+  
 }
 .footer_section .single_footer_widget ul {
   padding: 0;
@@ -6602,11 +6603,12 @@ a.elementor-button, .elementor-button:hover {
 }
 .footer_section .copyright_part {
   margin-top: 67px;
-  border-top: 1px solid #44476b;
+  /*border-top: 1px solid #44476b;*/
   padding-top: 25px;
 }
 .footer_section .copyright_part p {
   color: #fff;
+  font-weight: 700;
 }
 .footer_section .copyright_part p a {
   color: #fe4b7b;
@@ -6679,14 +6681,14 @@ a.elementor-button, .elementor-button:hover {
 }
 
 .home_two_footer {
-  padding: 100px 0 350px;
+  
   background-color: #e3f7fc;
   position: relative;
   z-index: 1;
 }
 @media (max-width: 767.98px) {
   .home_two_footer {
-    padding: 70px 0 200px;
+    padding: 70px 0 2px;
   }
 }
 .home_two_footer .footer_bg {
@@ -6701,16 +6703,19 @@ a.elementor-button, .elementor-button:hover {
 }
 .home_two_footer .footer_animation_3 {
   right: 0;
-  bottom: 90px;
+  bottom: 120px;
   left: 0;
   margin: 0 auto;
   text-align: center;
 }
+
+
 @media (max-width: 767.98px) {
   .home_two_footer .footer_animation_3 {
     max-width: 250px;
   }
 }
+
 .home_two_footer .single_footer_widget p {
   color: #515374;
   font-size: 15px;
@@ -6813,7 +6818,7 @@ a.elementor-button, .elementor-button:hover {
     float: none;
     text-align: center;
     display: block;
-    margin: 0 0 15px;
+    margin: 0 0 0px;
   }
 }
 .footer_style_3 .copyright_part ul {
@@ -6846,4 +6851,4 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
