@@ -1,51 +1,4 @@
 @charset "UTF-8";
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Caio Rodrigues
-@URL: 
- 
-
-
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Diversão em Livros 
-@Author: 
-@Developed By: Caio
-@Developer URL: 
-Author E-mail: 
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ mixins
-03/ reset
-04/ button
-05/ header
-06/ breadcrumb part
-07/ banner part
-08/ about us
-09/ services part
-10/ fetures part
-11/ event part 
-12/ success story
-13/ gallery
-14/ cta part
-15/ blog post
-16/ program list
-17/ count section
-18/ team section
-19/ client review section
-20/ team section
-21/ get start section
-22/ event page
-23/ event page
-24/ contact part
-25/ teacher details
-26/ cta part
-27/ footer
-------------------------------------------------------------*/
-/**************** common css here ****************/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 body {
   font-family: "Nunito", sans-serif;
@@ -3393,34 +3346,71 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 .our_gallery .bg_1 {
-  background-image: url(../img/gallery/09.jpg);
+  background-image: url(../img/gallery/c1.png);
 }
 .our_gallery .bg_2 {
-  background-image: url(../img/gallery/10.jpg);
+  background-image: url(../img/gallery/c2.png);
 }
 .our_gallery .bg_3 {
-  background-image: url(../img/gallery/11.jpg);
+  background-image: url(../img/gallery/c3.png);
 }
 .our_gallery .bg_4 {
-  background-image: url(../img/gallery/12.jpg);
+  background-image: url(../img/gallery/c4.png);
 }
 .our_gallery .bg_5 {
-  background-image: url(../img/gallery/13.jpg);
+  background-image: url(../img/gallery/c5.png);
 }
 .our_gallery .bg_6 {
-  background-image: url(../img/gallery/14.jpg);
+  background-image: url(../img/gallery/c6.png);
 }
 .our_gallery .bg_7 {
-  background-image: url(../img/gallery/15.jpg);
+  background-image: url(../img/gallery/c7.png);
 }
 .our_gallery .bg_8 {
-  background-image: url(../img/gallery/eight.png);
+  background-image: url(../img/gallery/c8.png);
 }
 .our_gallery .bg_9 {
-  background-image: url(../img/gallery/nine.png);
+  background-image: url(../img/gallery/c9.png);
 }
 .our_gallery .bg_10 {
-  background-image: url(../img/gallery/ten.png);
+  background-image: url(../img/gallery/c10.png);
+}
+
+.our_gallery .bg_11 {
+  background-image: url(../img/gallery/c11.png);
+}
+.our_gallery .bg_12 {
+  background-image: url(../img/gallery/c12.png);
+}
+.our_gallery .bg_13 {
+  background-image: url(../img/gallery/c13.png);
+}
+.our_gallery .bg_14 {
+  background-image: url(../img/gallery/c14.png);
+}
+.our_gallery .bg_15 {
+  background-image: url(../img/gallery/c15.png);
+}
+.our_gallery .bg_16 {
+  background-image: url(../img/gallery/c16.png);
+}
+.our_gallery .bg_17 {
+  background-image: url(../img/gallery/c17.png);
+}
+.our_gallery .bg_18 {
+  background-image: url(../img/gallery/c18.png);
+}
+.our_gallery .bg_19 {
+  background-image: url(../img/gallery/c19.png);
+}
+.our_gallery .bg_20 {
+  background-image: url(../img/gallery/c20.png);
+}
+.our_gallery .bg_21 {
+  background-image: url(../img/gallery/c21.png);
+}
+.our_gallery .bg_22 {
+  background-image: url(../img/gallery/c22.png);
 }
 .our_gallery [class^=gallery_animation_],
 .our_gallery [class*=" gallery_animation_"] {
@@ -4638,7 +4628,7 @@ a.elementor-button, .elementor-button:hover {
 .single_team_section .teacher_profile_img {
   overflow: hidden;
   border-radius: 5px 5px 0 0;
-  max-height: 250px;
+  max-height: 340px;
   width: 100%;
 }
 .single_team_section .teacher_profile_img img {
@@ -4718,6 +4708,104 @@ a.elementor-button, .elementor-button:hover {
 .col-lg-4:nth-child(3n+1) .single_team_section .teacher_category {
   background-color: #31c9a8;
 }
+/****************************/
+
+.single_team_section1 {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .single_team_section1 {
+    margin-bottom: 30px;
+  }
+}
+.single_team_section1 .teacher_profile_img {
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+  max-height: 340px;
+  width: 100%;
+}
+.single_team_section1 .teacher_profile_img img {
+  border-radius: 5px 5px 0 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transform: scale(1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.single_team_section1:hover .teacher_profile_img img {
+  transform: scale(1.1);
+}
+.single_team_section1 h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 34px;
+  margin-bottom: 5px;
+}
+.single_team_section1 h4 a {
+  color: #32355d;
+}
+.single_team_section1 h4 a:hover {
+  color: #fe4b7b;
+}
+@media (max-width: 991px) {
+  .single_team_section1 h4 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .single_team_section1 h4 {
+    margin-top: 20px;
+  }
+}
+.single_team_section1 p {
+  font-weight: 500;
+  font-size: 15px;
+}
+.single_team_section1 .teacher_category {
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #fe4b7b;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 151px;
+  height: 31px;
+  line-height: 31px;
+  bottom: 178px;
+  display: inline-block;
+}
+@media (max-width: 767.98px) {
+  .single_team_section1 .teacher_category {
+    bottom: 225px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .single_team_section1 .teacher_category {
+    bottom: 297px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .single_team_section1 .teacher_category {
+    bottom: 206px;
+  }
+}
+
+.col-lg-4:nth-child(2n+1) .single_team_section1 .teacher_category {
+  background-color: #4ba9ff;
+}
+.col-lg-4:nth-child(3n+1) .single_team_section1 .teacher_category {
+  background-color: #31c9a8;
+}
+
+
+
+
+
 
 .team_section {
   position: relative;
