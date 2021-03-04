@@ -1107,7 +1107,7 @@ a.elementor-button, .elementor-button:hover {
   }
   .header_part .dropdown-toggle::after {
     border: 0px solid transparent;
-    content: "ï„‡";
+    content: "Ã¯â€žâ€¡";
     font-family: "Font Awesome 5 Free";
     vertical-align: 0px;
     float: right;
@@ -1228,7 +1228,7 @@ a.elementor-button, .elementor-button:hover {
 
 /******** header css end *********/
 .breadcrumb_part {
-  background-image: url("../img/breadcrumb_bg.png");
+  background-image: url("../img/breadcrumb_bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3346,71 +3346,71 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 .our_gallery .bg_1 {
-  background-image: url(../img/gallery/c1.png);
+  background-image: url(../gallery/c1.png);
 }
 .our_gallery .bg_2 {
-  background-image: url(../img/gallery/c2.png);
+  background-image: url(../gallery/c2.png);
 }
 .our_gallery .bg_3 {
-  background-image: url(../img/gallery/c3.png);
+  background-image: url(../gallery/c3.png);
 }
 .our_gallery .bg_4 {
-  background-image: url(../img/gallery/c4.png);
+  background-image: url(../gallery/c4.png);
 }
 .our_gallery .bg_5 {
-  background-image: url(../img/gallery/c5.png);
+  background-image: url(../gallery/c5.png);
 }
 .our_gallery .bg_6 {
-  background-image: url(../img/gallery/c6.png);
+  background-image: url(../gallery/c6.png);
 }
 .our_gallery .bg_7 {
-  background-image: url(../img/gallery/c7.png);
+  background-image: url(../gallery/c7.png);
 }
 .our_gallery .bg_8 {
-  background-image: url(../img/gallery/c8.png);
+  background-image: url(../gallery/c8.png);
 }
 .our_gallery .bg_9 {
-  background-image: url(../img/gallery/c9.png);
+  background-image: url(../gallery/c9.png);
 }
 .our_gallery .bg_10 {
-  background-image: url(../img/gallery/c10.png);
+  background-image: url(../gallery/c10.png);
 }
 
 .our_gallery .bg_11 {
-  background-image: url(../img/gallery/c11.png);
+  background-image: url(../gallery/c11.png);
 }
 .our_gallery .bg_12 {
-  background-image: url(../img/gallery/c12.png);
+  background-image: url(../gallery/c12.png);
 }
 .our_gallery .bg_13 {
-  background-image: url(../img/gallery/c13.png);
+  background-image: url(../gallery/c13.png);
 }
 .our_gallery .bg_14 {
-  background-image: url(../img/gallery/c14.png);
+  background-image: url(../gallery/c14.png);
 }
 .our_gallery .bg_15 {
-  background-image: url(../img/gallery/c15.png);
+  background-image: url(../gallery/c15.png);
 }
 .our_gallery .bg_16 {
-  background-image: url(../img/gallery/c16.png);
+  background-image: url(../gallery/c16.png);
 }
 .our_gallery .bg_17 {
-  background-image: url(../img/gallery/c17.png);
+  background-image: url(../gallery/c17.png);
 }
 .our_gallery .bg_18 {
-  background-image: url(../img/gallery/c18.png);
+  background-image: url(../gallery/c18.png);
 }
 .our_gallery .bg_19 {
-  background-image: url(../img/gallery/c19.png);
+  background-image: url(../gallery/c19.png);
 }
 .our_gallery .bg_20 {
-  background-image: url(../img/gallery/c20.png);
+  background-image: url(../gallery/c20.png);
 }
 .our_gallery .bg_21 {
-  background-image: url(../img/gallery/c21.png);
+  background-image: url(../gallery/c21.png);
 }
 .our_gallery .bg_22 {
-  background-image: url(../img/gallery/c22.png);
+  background-image: url(../gallery/c22.png);
 }
 .our_gallery [class^=gallery_animation_],
 .our_gallery [class*=" gallery_animation_"] {
@@ -4702,6 +4702,44 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 
+
+/**********************************************************/
+
+.single_team_section .teacher_category2 {
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #fe4b7b;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 151px;
+  height: 31px;
+  line-height: 31px;
+  bottom: 2px;
+  display: inline-block;
+}
+@media (max-width: 767.98px) {
+  .single_team_section .teacher_category2 {
+    bottom: 36px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .single_team_section .teacher_category2 {
+    bottom: 33px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .single_team_section .teacher_category2 {
+    bottom: 4px;
+  }
+}
+
+/**********************************************************/
+
 .col-lg-4:nth-child(2n+1) .single_team_section .teacher_category {
   background-color: #4ba9ff;
 }
@@ -4762,7 +4800,7 @@ a.elementor-button, .elementor-button:hover {
   font-weight: 500;
   font-size: 15px;
 }
-.single_team_section1 .teacher_category {
+.single_team_section1 .teacher_category1 {
   font-size: 15px;
   color: #fff;
   border-radius: 5px;
@@ -6287,9 +6325,7 @@ a.elementor-button, .elementor-button:hover {
     font-size: 40px;
   }
 }
-.cta_section p {
-  margin-top: 26px;
-}
+
 @media (max-width: 767.98px) {
   .cta_section p {
     margin-top: 15px;
@@ -6531,26 +6567,26 @@ a.elementor-button, .elementor-button:hover {
   color: #475993;
 }
 .contact_page .social_icon a[href*=instagram] {
-  background-color: #FE2A39;
-  border-color: #FE2A39;
+  background-color: #fe4b7b;
+  border-color: #fe4b7b;
 }
 .contact_page .social_icon a[href*=instagram]:hover {
   background-color: #fff;
   color: #FE2A39;
 }
-.contact_page .social_icon a[href*=linkedin] {
+.contact_page .social_icon a[href*=twitter] {
   background-color: #0e76a8;
   border-color: #0e76a8;
 }
-.contact_page .social_icon a[href*=linkedin]:hover {
+.contact_page .social_icon a[href*=twitter]:hover {
   background-color: #fff;
   color: #0e76a8;
 }
-.contact_page .social_icon a[href*=dribbble] {
+.contact_page .social_icon a[href*=youtube] {
   background-color: #FE2A39;
   border-color: #FE2A39;
 }
-.contact_page .social_icon a[href*=dribbble]:hover {
+.contact_page .social_icon a[href*=youtube]:hover {
   background-color: #fff;
   color: #FE2A39;
 }
