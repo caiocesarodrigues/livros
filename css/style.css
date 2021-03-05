@@ -433,7 +433,7 @@ button:focus,
   }
 }
 @media (max-width: 1440px) {
-  br {
+ {
     display: none;
   }
 }
@@ -1107,7 +1107,7 @@ a.elementor-button, .elementor-button:hover {
   }
   .header_part .dropdown-toggle::after {
     border: 0px solid transparent;
-    content: "";
+    content: "?";
     font-family: "Font Awesome 5 Free";
     vertical-align: 0px;
     float: right;
@@ -1228,7 +1228,7 @@ a.elementor-button, .elementor-button:hover {
 
 /******** header css end *********/
 .breadcrumb_part {
-  background-image: url("../img/breadcrumb_bg.jpg");
+  background-image: url("../img/breadcrumb_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1522,11 +1522,18 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 .banner_part .bg_1 {
-  background-image: url("../img/banner.png");
+  background-image: url("../img/1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.banner_part .bg_2 {
+  background-image: url("../img/banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner_part .owl-nav button.owl-next,
 .banner_part .owl-nav button.owl-prev {
   border: 2px solid transparent;
@@ -3550,6 +3557,7 @@ a.elementor-button, .elementor-button:hover {
 }
 .cta_section p {
   margin-top: 26px;
+  text-indent: 4ch;
 }
 @media (max-width: 767.98px) {
   .cta_section p {
@@ -4589,8 +4597,8 @@ a.elementor-button, .elementor-button:hover {
   bottom: 8%;
 }
 .count_section .count_animation_6 {
-  right: 50%;
-  top: 10%;
+  right: 37%;
+  top: 2%;
 }
 .count_section .count_animation_7 {
   right: 17%;
@@ -4817,18 +4825,27 @@ a.elementor-button, .elementor-button:hover {
   bottom: 178px;
   display: inline-block;
 }
+
+
 @media (max-width: 767.98px) {
-  .single_team_section1 .teacher_category {
-    bottom: 225px;
+  .single_team_section1 .teacher_category1 {
+    bottom: 221px;
   }
 }
+
+@media (max-width: 767.98px) and (max-width: 800.98px) {
+  .single_team_section1 .teacher_category1 {
+    bottom: 220px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-  .single_team_section1 .teacher_category {
-    bottom: 297px;
+  .single_team_section1 .teacher_category1 {
+    bottom: 307px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-  .single_team_section1 .teacher_category {
+  .single_team_section1 .teacher_category1 {
     bottom: 206px;
   }
 }
@@ -6541,6 +6558,23 @@ a.elementor-button, .elementor-button:hover {
   display: flex;
   margin-top: 33px;
 }
+.footer_section .social_icon a {
+  width: 48px;
+  height: 48px;
+  background-color: #32355d;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  margin-right: 8px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+
+
 .contact_page .social_icon a {
   width: 48px;
   height: 48px;
@@ -6727,7 +6761,7 @@ a.elementor-button, .elementor-button:hover {
 }
 .footer_section .copyright_part {
   margin-top: 67px;
-  /*border-top: 1px solid #44476b;*/
+  border-top: 1px solid #44476b;
   padding-top: 25px;
 }
 .footer_section .copyright_part p {
