@@ -1107,7 +1107,7 @@ a.elementor-button, .elementor-button:hover {
   }
   .header_part .dropdown-toggle::after {
     border: 0px solid transparent;
-    content: "?";
+    content: "";
     font-family: "Font Awesome 5 Free";
     vertical-align: 0px;
     float: right;
