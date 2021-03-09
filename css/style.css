@@ -1107,7 +1107,7 @@ a.elementor-button, .elementor-button:hover {
   }
   .header_part .dropdown-toggle::after {
     border: 0px solid transparent;
-    content: "";
+    content: "?";
     font-family: "Font Awesome 5 Free";
     vertical-align: 0px;
     float: right;
@@ -1349,7 +1349,574 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 
+/******** header css end breadcrumb_part2 *********/
+.breadcrumb_part2 {
+  background-image: url("../img/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part2 {
+    height: 350px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part2 {
+    height: 350px;
+  }
+}
+.breadcrumb_part2 .breadcrumb_iner {
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 991px) {
+  .breadcrumb_part2 .breadcrumb_iner {
+    margin-top: 0;
+  }
+}
+.breadcrumb_part2 h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 11px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part2 h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part2 h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+}
+.breadcrumb_part2 .breadcrumb_iner_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb_part2 .breadcrumb_iner_link a {
+  font-size: 16px;
+  color: #c9c9d1;
+}
+.breadcrumb_part2 .breadcrumb_iner_link a:hover {
+  color: #fe4b7b;
+}
+.breadcrumb_part2 .breadcrumb_iner_link p {
+  font-size: 16px;
+  color: #c9c9d1;
+  font-family: "Nunito", sans-serif;
+}
+.breadcrumb_part2 .breadcrumb_iner_link span {
+  margin: 0 5px;
+  color: #c9c9d1;
+}
+.breadcrumb_part2 [class^=breadcrumb_animation_],
+.breadcrumb_part2 [class*=breadcrumb_animation_] {
+  position: absolute;
+  z-index: 1;
+}
+.breadcrumb_part2 .breadcrumb_animation_4 {
+  left: 5%;
+  top: 30%;
+  right: auto;
+  bottom: auto;
+}
+.breadcrumb_part2 .breadcrumb_animation_5 {
+  right: 8%;
+  top: 33%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part2 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part2 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+.breadcrumb_part2 .breadcrumb_animation_7 {
+  left: 15%;
+  bottom: 14%;
+}
+.breadcrumb_part2 .breadcrumb_animation_10 {
+  right: 5%;
+  bottom: 25%;
+}
+.breadcrumb_part2 .breadcrumb_animation_12 {
+  right: 31%;
+  bottom: 23%;
+}
+.breadcrumb_part2 .breadcrumb_animation_13 {
+  right: 66%;
+  top: 30%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part2 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part2 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+
 /********* banner part css here ********/
+
+/******** header css end *********/
+.breadcrumb_part3 {
+  background-image: url("../img/sob.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part3 {
+    height: 350px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part3 {
+    height: 350px;
+  }
+}
+.breadcrumb_part3 .breadcrumb_iner {
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 991px) {
+  .breadcrumb_part3 .breadcrumb_iner {
+    margin-top: 0;
+  }
+}
+.breadcrumb_part3 h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 11px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part3 h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part3 h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+}
+.breadcrumb_part3 .breadcrumb_iner_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb_part3 .breadcrumb_iner_link a {
+  font-size: 16px;
+  color: #c9c9d1;
+}
+.breadcrumb_part3 .breadcrumb_iner_link a:hover {
+  color: #fe4b7b;
+}
+.breadcrumb_part3 .breadcrumb_iner_link p {
+  font-size: 16px;
+  color: #c9c9d1;
+  font-family: "Nunito", sans-serif;
+}
+.breadcrumb_part3 .breadcrumb_iner_link span {
+  margin: 0 5px;
+  color: #c9c9d1;
+}
+.breadcrumb_part3 [class^=breadcrumb_animation_],
+.breadcrumb_part3 [class*=breadcrumb_animation_] {
+  position: absolute;
+  z-index: 1;
+}
+.breadcrumb_part3 .breadcrumb_animation_4 {
+  left: 5%;
+  top: 30%;
+  right: auto;
+  bottom: auto;
+}
+.breadcrumb_part3 .breadcrumb_animation_5 {
+  right: 8%;
+  top: 33%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part3 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part3 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+.breadcrumb_part3 .breadcrumb_animation_7 {
+  left: 15%;
+  bottom: 14%;
+}
+.breadcrumb_part3 .breadcrumb_animation_10 {
+  right: 5%;
+  bottom: 25%;
+}
+.breadcrumb_part3 .breadcrumb_animation_12 {
+  right: 31%;
+  bottom: 23%;
+}
+.breadcrumb_part3 .breadcrumb_animation_13 {
+  right: 66%;
+  top: 30%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part3 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part3 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+
+/********* banner part css here ********/
+
+/******** header css end *********/
+.breadcrumb_part4 {
+  background-image: url("../img/contato.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part4 {
+    height: 350px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part4 {
+    height: 350px;
+  }
+}
+.breadcrumb_part4 .breadcrumb_iner {
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 991px) {
+  .breadcrumb_part4 .breadcrumb_iner {
+    margin-top: 0;
+  }
+}
+.breadcrumb_part4 h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 11px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part4 h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part4 h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+}
+.breadcrumb_part4 .breadcrumb_iner_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb_part4 .breadcrumb_iner_link a {
+  font-size: 16px;
+  color: #c9c9d1;
+}
+.breadcrumb_part4 .breadcrumb_iner_link a:hover {
+  color: #fe4b7b;
+}
+.breadcrumb_part4 .breadcrumb_iner_link p {
+  font-size: 16px;
+  color: #c9c9d1;
+  font-family: "Nunito", sans-serif;
+}
+.breadcrumb_part4 .breadcrumb_iner_link span {
+  margin: 0 5px;
+  color: #c9c9d1;
+}
+.breadcrumb_part4 [class^=breadcrumb_animation_],
+.breadcrumb_part4 [class*=breadcrumb_animation_] {
+  position: absolute;
+  z-index: 1;
+}
+.breadcrumb_part4 .breadcrumb_animation_4 {
+  left: 5%;
+  top: 30%;
+  right: auto;
+  bottom: auto;
+}
+.breadcrumb_part4 .breadcrumb_animation_5 {
+  right: 8%;
+  top: 33%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part4 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part4 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+.breadcrumb_part4 .breadcrumb_animation_7 {
+  left: 15%;
+  bottom: 14%;
+}
+.breadcrumb_part4 .breadcrumb_animation_10 {
+  right: 5%;
+  bottom: 25%;
+}
+.breadcrumb_part4 .breadcrumb_animation_12 {
+  right: 31%;
+  bottom: 23%;
+}
+.breadcrumb_part4 .breadcrumb_animation_13 {
+  right: 66%;
+  top: 30%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part4 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part4 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+
+
+/******** Icon Page Missionário*********/
+
+.contact_page1 .social_icon a {
+  width: 48px;
+  height: 48px;
+  background-color: #3b5998;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  margin-right: 8px;
+  border-style: solid;
+  border-width: 2px;
+}
+.contact_page1 .social_icon a:last-child {
+  margin-right: 0;
+}
+.contact_page1 .social_icon a[href*=facebook] {
+  background-color: #475993;
+  border-color: #475993;
+}
+.contact_page1 .social_icon a[href*=facebook]:hover {
+  background-color: #fff;
+  color: #475993;
+}
+.contact_page1 .social_icon a[href*=instagram] {
+  background-color: #fe4b7b;
+  border-color: #fe4b7b;
+}
+.contact_page1 .social_icon a[href*=instagram]:hover {
+  background-color: #fff;
+  color: #FE2A39;
+}
+.contact_page1 .social_icon a[href*=twitter] {
+  background-color: #0e76a8;
+  border-color: #0e76a8;
+}
+.contact_page1 .social_icon a[href*=twitter]:hover {
+  background-color: #fff;
+  color: #0e76a8;
+}
+.contact_page1 .social_icon a[href*=youtube] {
+  background-color: #FE2A39;
+  border-color: #FE2A39;
+}
+.contact_page1 .social_icon a[href*=youtube]:hover {
+  background-color: #fff;
+  color: #FE2A39;
+}
+.contact_page1 .social_icon {
+        display: list-item;
+
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+
+/********* banner part css here ********/
+
+/******** header css end *********/
+.breadcrumb_part5 {
+  background-image: url("../img/miss.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part5 {
+    height: 350px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part5 {
+    height: 350px;
+  }
+}
+.breadcrumb_part5 .breadcrumb_iner {
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 991px) {
+  .breadcrumb_part5 .breadcrumb_iner {
+    margin-top: 0;
+  }
+}
+.breadcrumb_part5 h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 11px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .breadcrumb_part5 h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 991px) {
+  .breadcrumb_part5 h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+}
+.breadcrumb_part5 .breadcrumb_iner_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb_part5 .breadcrumb_iner_link a {
+  font-size: 16px;
+  color: #c9c9d1;
+}
+.breadcrumb_part5 .breadcrumb_iner_link a:hover {
+  color: #fe4b7b;
+}
+.breadcrumb_part5 .breadcrumb_iner_link p {
+  font-size: 16px;
+  color: #c9c9d1;
+  font-family: "Nunito", sans-serif;
+}
+.breadcrumb_part5 .breadcrumb_iner_link span {
+  margin: 0 5px;
+  color: #c9c9d1;
+}
+.breadcrumb_part5 [class^=breadcrumb_animation_],
+.breadcrumb_part5 [class*=breadcrumb_animation_] {
+  position: absolute;
+  z-index: 1;
+}
+.breadcrumb_part5 .breadcrumb_animation_4 {
+  left: 5%;
+  top: 30%;
+  right: auto;
+  bottom: auto;
+}
+.breadcrumb_part5 .breadcrumb_animation_5 {
+  right: 8%;
+  top: 33%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part5 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part5 .breadcrumb_animation_5 {
+    display: none;
+  }
+}
+.breadcrumb_part5 .breadcrumb_animation_7 {
+  left: 15%;
+  bottom: 14%;
+}
+.breadcrumb_part5 .breadcrumb_animation_10 {
+  right: 5%;
+  bottom: 25%;
+}
+.breadcrumb_part5 .breadcrumb_animation_12 {
+  right: 31%;
+  bottom: 23%;
+}
+.breadcrumb_part5 .breadcrumb_animation_13 {
+  right: 66%;
+  top: 30%;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb_part5 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .breadcrumb_part5 .breadcrumb_animation_13 {
+    display: none;
+  }
+}
+
+/********* banner part css here ********/
+
+
+/********* banner part css here ********/
+
 .banner_part {
   overflow: hidden;
 }
@@ -1528,7 +2095,7 @@ a.elementor-button, .elementor-button:hover {
   background-size: cover;
 }
 .banner_part .bg_2 {
-  background-image: url("../img/banner2.JPG");
+  background-image: url("../img/banner2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4835,7 +5402,7 @@ a.elementor-button, .elementor-button:hover {
 
 @media (max-width: 767.98px) and (max-width: 800.98px) {
   .single_team_section1 .teacher_category1 {
-    bottom: 245px;
+    bottom: 220px;
   }
 }
 
@@ -6766,7 +7333,7 @@ a.elementor-button, .elementor-button:hover {
 }
 .footer_section .copyright_part p {
   color: #fff;
-  font-weight: 700;
+  
 }
 .footer_section .copyright_part p a {
   color: #fe4b7b;
